@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+    
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+
+
+    <title>Ingreso de Pacientes</title>
+</head>
+<body>
+    <div class="container" >
+        <div class="row">
+            <div class="col-md-10">
+                <h1>Ingreso Paciente Nuevo</h1>
+            </div>
+            <div class="col-md-2">
+                <img src="img/logoveterinario.png" alt="" srcset=""width="100%">
+            </div>
+    
+        </div> 
+        <div class="row">
+            <form action="" method="get">
+                <table class="table table-bordered">
+                    <tr>
+                        <td class="">Nombre Mascota</td>
+                        <td class=""><input type="text" name="nombre" placeholder="Ingrese nombre mascota" id=""></td>
+                        <td class="">Estéril</td>
+                        <td class=""><input type="checkbox" name="esteril"  id=""></td>
+                    </tr>
+                    <tr>
+                        <td class="">Tutor</td>
+                        <td class=""><input type="text" name="tutor" placeholder="Ingrese nombre Tutor" id=""></td>
+                        <td class="">Peso</td>
+                        <td class=""><input type="text" name="peso" placeholder="Kg" id=""></td>
+                    </tr>
+                    <tr>
+                        <td class="">Fecha Nacimiento</td>
+                        <td class=""><input type="date" name="fecha_nacimiento" id=""></td>
+                        <td class="">Especie</td>
+                        <td class="">
+                            <select name="especie">
+                                <option value="1">gato</option> 
+                                <option value="2">perro</option> 
+                                <option value="3">exotico</option> 
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="">Raza</td>
+                        <td class="">
+                            <select name="raza">
+                                <option value="1">americano de pelo corto</option> 
+                                <option value="2">angora</option> 
+                                <option value="3">siames</option> 
+                            </select>
+
+                        </td>
+                        <td class="">Sexo</td>
+                        <td class="">
+                            <select name="sexo">
+                                <option value="1">macho</option> 
+                                <option value="2">hembra</option> 
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="">Diagnostico</td>
+                        <td class="">
+                            <textarea name="diagnostico" id="" placeholder="Ingrese diasnostico" cols="30" rows="10"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class=""></td>
+                        <td class=""></td>
+                        <td class=""></td>
+                        <td class=""><button type="submit" class="btn btn-success">ingresar</button></td>
+                    </tr>
+
+                </table>
+            </form>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <a class="btn btn-success" href="index.html" role="button">Atrás</a>
+            </div>
+        </div>   
+        <div class="row">
+            <div class="col-md-12">
+                <h6>
+                    <span class="glyphicon glyphicon-copyright-mark" aria-hidden="true"></span>
+                    Todos Los Derechos Reservados.
+                </h6>               
+            </div>
+        </div>   
+
+    </div>
+
+    
+</body>
+</html>
