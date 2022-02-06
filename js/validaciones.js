@@ -23,6 +23,6 @@ function enviarformulario(){
     "\nespecie"+especiecievalue+
     "\nraza"+razavalue+
     "\nsexo"+sexovalue+
-    "\diagnostico"+diagnostico
+    "\ndiagnostico"+diagnostico
     );
 }
