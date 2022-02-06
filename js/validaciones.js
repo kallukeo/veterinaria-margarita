@@ -4,18 +4,25 @@ function enviarformulario(){
     var fecha_de_nacimiento=document.getElementById("fecha_nacimiento").value;
     var esteril=document.getElementById("esteril").value;
     var peso=document.getElementById("peso").value;
-    //var especie=docmunet.getElementById("especie").value;
-    //var raza=document.getElementById("raza").value;
-    //var sexo=document.getElementById("sexo").value;
+
+    var especie=document.getElementById("especie");
+    var especiecievalue=especie.options[especie.selectedIndex].value;
+
+    var raza=document.getElementById("raza");
+    var razavalue=raza.options[raza.selectedIndex].value;
+
+    var sexo=document.getElementById("sexo");
+    var  sexovalue=sexo.options[sexo.selectedIndex].value;
+
     var diagnostico=document.getElementById("diagnostico").value;
     alert("Nombre:" + name+
     "\ntutor:" + tutor+
     "\nfecha de nacimiento:"+fecha_de_nacimiento+
     "\nesteril"+esteril+
     "\npeso"+peso+
-    //"\nespecie"+especie+
-    //"\nraza"+raza+
-    //"\nsexo"+sexo+
+    "\nespecie"+especiecievalue+
+    "\nraza"+razavalue+
+    "\nsexo"+sexovalue+
     "\diagnostico"+diagnostico
     );
 }
